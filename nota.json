@@ -1,5 +1,5 @@
 {
-  "config_version": 10,
+  "config_version": 11,
   "app": {
     "minimum_version": "1.0.0",
     "maintenance": false
@@ -17,12 +17,45 @@
     "enabled": true,
     "banner": {
       "enabled": true,
-      "provider": "admob"
+      "provider": "admob",
+      "ad_unit_id": "ca-app-pub-3940256099942544/6300978111"
     },
     "rewarded": {
       "enabled": true,
       "provider": "admob",
-      "placement": "report_export"
+      "placement": "report_export",
+      "ad_unit_id": "ca-app-pub-3940256099942544/5224354917"
+    },
+    "interstitial": {
+      "enabled": false,
+      "provider": "admob",
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+    },
+    "ad_units": {
+      "admob": {
+        "app_id": "ca-app-pub-3940256099942544~3347511713",
+        "banner": "ca-app-pub-3940256099942544/6300978111",
+        "rewarded": "ca-app-pub-3940256099942544/5224354917",
+        "interstitial": "ca-app-pub-3940256099942544/1033173712",
+        "app_open": "ca-app-pub-3940256099942544/9257395921"
+      },
+      "applovin": {
+        "sdk_key": "MASUKKAN_APPLOVIN_SDK_KEY_DISINI",
+        "banner": "MASUKKAN_APPLOVIN_BANNER_ID",
+        "rewarded": "MASUKKAN_APPLOVIN_REWARDED_ID",
+        "interstitial": "MASUKKAN_APPLOVIN_INTERSTITIAL_ID"
+      },
+      "fan": {
+        "banner": "MASUKKAN_FAN_BANNER_PLACEMENT_ID",
+        "rewarded": "MASUKKAN_FAN_REWARDED_PLACEMENT_ID",
+        "interstitial": "MASUKKAN_FAN_INTERSTITIAL_PLACEMENT_ID"
+      },
+      "unity": {
+        "game_id": "MASUKKAN_UNITY_GAME_ID",
+        "banner": "banner_placement",
+        "rewarded": "rewarded_placement",
+        "interstitial": "interstitial_placement"
+      }
     }
   },
   "notifications": {

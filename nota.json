@@ -1,0 +1,39 @@
+{
+  "config_version": 10,
+  "app": {
+    "minimum_version": "1.0.0",
+    "maintenance": false
+  },
+  "features": {
+    "product": true,
+    "customer": true,
+    "receivable": true,
+    "printer": true,
+    "ai_nota": true,
+    "voice_nota": true,
+    "marketing_ai": false
+  },
+  "ads": {
+    "enabled": true,
+    "banner": {
+      "enabled": true,
+      "provider": "admob"
+    },
+    "rewarded": {
+      "enabled": true,
+      "provider": "admob",
+      "placement": "report_export"
+    }
+  },
+  "notifications": {
+    "enabled": true,
+    "tips": true,
+    "updates": true,
+    "promo": true
+  },
+  "templates": {
+    "remote_enabled": true,
+    "default_template": "modern_blue",
+    "catalog_version": 5
+  }
+}

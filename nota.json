@@ -1,5 +1,5 @@
 {
-  "config_version": 11,
+  "config_version": 12,
   "app": {
     "minimum_version": "1.0.0",
     "maintenance": false
@@ -25,48 +25,41 @@
       "provider": "admob",
       "placement": "report_export",
       "ad_unit_id": "ca-app-pub-3940256099942544/5224354917"
-    },
-    "interstitial": {
-      "enabled": false,
-      "provider": "admob",
-      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
-    },
-    "ad_units": {
-      "admob": {
-        "app_id": "ca-app-pub-3940256099942544~3347511713",
-        "banner": "ca-app-pub-3940256099942544/6300978111",
-        "rewarded": "ca-app-pub-3940256099942544/5224354917",
-        "interstitial": "ca-app-pub-3940256099942544/1033173712",
-        "app_open": "ca-app-pub-3940256099942544/9257395921"
-      },
-      "applovin": {
-        "sdk_key": "MASUKKAN_APPLOVIN_SDK_KEY_DISINI",
-        "banner": "MASUKKAN_APPLOVIN_BANNER_ID",
-        "rewarded": "MASUKKAN_APPLOVIN_REWARDED_ID",
-        "interstitial": "MASUKKAN_APPLOVIN_INTERSTITIAL_ID"
-      },
-      "fan": {
-        "banner": "MASUKKAN_FAN_BANNER_PLACEMENT_ID",
-        "rewarded": "MASUKKAN_FAN_REWARDED_PLACEMENT_ID",
-        "interstitial": "MASUKKAN_FAN_INTERSTITIAL_PLACEMENT_ID"
-      },
-      "unity": {
-        "game_id": "MASUKKAN_UNITY_GAME_ID",
-        "banner": "banner_placement",
-        "rewarded": "rewarded_placement",
-        "interstitial": "interstitial_placement"
-      }
     }
   },
-  "notifications": {
-    "enabled": true,
-    "tips": true,
-    "updates": true,
-    "promo": true
-  },
-  "templates": {
-    "remote_enabled": true,
-    "default_template": "modern_blue",
-    "catalog_version": 5
-  }
+  "more_apps": [
+    {
+      "id": "kasir_pintar",
+      "title": "Kasir Pintar POS UMKM",
+      "description": "Kelola transaksi kasir, cetak struk bluetooth, dan pantau stok barang secara praktis.",
+      "icon_url": "https://raw.githubusercontent.com/username/repo/main/icons/kasir.png",
+      "package_name": "com.kasirpintar.pos",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.kasirpintar.pos",
+      "badge": "Populer",
+      "rating": "4.9",
+      "category": "Kasir & POS"
+    },
+    {
+      "id": "buku_keuangan",
+      "title": "Buku Kas & Keuangan Toko",
+      "description": "Pencatatan kas harian UMKM, laporan laba rugi, dan hitung utang piutang otomatis.",
+      "icon_url": "https://raw.githubusercontent.com/username/repo/main/icons/bukukas.png",
+      "package_name": "com.bukukas.finance",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.bukukas.finance",
+      "badge": "Rekomendasi",
+      "rating": "4.8",
+      "category": "Keuangan"
+    },
+    {
+      "id": "katalog_wa",
+      "title": "Katalog Produk WhatsApp",
+      "description": "Buat etalase dan brosur produk digital instan yang mudah dibagikan langsung ke pelanggan.",
+      "icon_url": "",
+      "package_name": "com.katalogwa.umkm",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.katalogwa.umkm",
+      "badge": "Gratis",
+      "rating": "4.9",
+      "category": "Pemasaran"
+    }
+  ]
 }

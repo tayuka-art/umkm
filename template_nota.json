@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "templates": [
+    {
+      "id": "modern_blue",
+      "name": "Modern Blue",
+      "category": "general",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#1976D2",
+        "secondary": "#E3F2FD",
+        "text": "#212121",
+        "muted": "#757575",
+        "border": "#E0E0E0",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "tax" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "classic_mono",
+      "name": "Classic Monochrome",
+      "category": "general",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#333333",
+        "secondary": "#F5F5F5",
+        "text": "#111111",
+        "muted": "#666666",
+        "border": "#333333",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 18,
+        "body_size": 12,
+        "total_size": 16
+      },
+      "components": [
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "signature" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "minimal_green",
+      "name": "Minimalist Green",
+      "category": "retail",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#2E7D32",
+        "secondary": "#E8F5E9",
+        "text": "#263238",
+        "muted": "#78909C",
+        "border": "#CFD8DC",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 19,
+        "body_size": 12,
+        "total_size": 17
+      },
+      "components": [
+        { "type": "logo" },
+        { "type": "business_info" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "qr" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "thermal_receipt",
+      "name": "Thermal Struk 58/80mm",
+      "category": "thermal",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#EEEEEE",
+        "text": "#000000",
+        "muted": "#555555",
+        "border": "#000000",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 16,
+        "body_size": 11,
+        "total_size": 16
+      },
+      "components": [
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "tax" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@
     "marketing_ai": false
   },
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "banner": {
       "enabled": true,
       "provider": "admob",

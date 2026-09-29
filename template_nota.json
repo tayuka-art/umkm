@@ -124,6 +124,441 @@
         { "type": "footer" }
       ]
     },
+    
+    {
+      "id": "retail_fresh",
+      "name": "Retail Fresh",
+      "category": "retail",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#1565C0",
+        "secondary": "#E3F2FD",
+        "text": "#263238",
+        "muted": "#607D8B",
+        "border": "#BBDEFB",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "elegant_gold",
+      "name": "Elegant Gold",
+      "category": "general",
+      "enabled": true,
+      "premium": true,
+      "colors": {
+        "primary": "#B8860B",
+        "secondary": "#FFF8E1",
+        "text": "#3E2723",
+        "muted": "#795548",
+        "border": "#E6C76A",
+        "background": "#FFFDF7"
+      },
+      "font": {
+        "title_size": 21,
+        "body_size": 12,
+        "total_size": 19
+      },
+      "components": [
+        { "type": "logo", "position": "top_center" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "tax" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "fashion_pink",
+      "name": "Fashion Pink",
+      "category": "fashion",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#D81B60",
+        "secondary": "#FCE4EC",
+        "text": "#4A1A2C",
+        "muted": "#AD1457",
+        "border": "#F8BBD0",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "online_shop",
+      "name": "Online Shop",
+      "category": "online_shop",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#6A1B9A",
+        "secondary": "#F3E5F5",
+        "text": "#311B4E",
+        "muted": "#7B1FA2",
+        "border": "#CE93D8",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 19,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "coffee_house",
+      "name": "Coffee House",
+      "category": "restaurant",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#6D4C41",
+        "secondary": "#EFEBE9",
+        "text": "#3E2723",
+        "muted": "#795548",
+        "border": "#D7CCC8",
+        "background": "#FFFEFC"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_center" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "restaurant_red",
+      "name": "Restaurant Red",
+      "category": "restaurant",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#C62828",
+        "secondary": "#FFEBEE",
+        "text": "#3E2723",
+        "muted": "#8D6E63",
+        "border": "#FFCDD2",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "tax" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "professional_invoice",
+      "name": "Professional Invoice",
+      "category": "invoice",
+      "enabled": true,
+      "premium": true,
+      "colors": {
+        "primary": "#263238",
+        "secondary": "#ECEFF1",
+        "text": "#263238",
+        "muted": "#607D8B",
+        "border": "#B0BEC5",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 22,
+        "body_size": 12,
+        "total_size": 19
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_left" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "tax" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "signature" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "service_blue",
+      "name": "Service Pro",
+      "category": "service",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#0277BD",
+        "secondary": "#E1F5FE",
+        "text": "#263238",
+        "muted": "#546E7A",
+        "border": "#81D4FA",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "receivable" },
+        { "type": "signature" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "nature_green",
+      "name": "Nature Green",
+      "category": "general",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#388E3C",
+        "secondary": "#E8F5E9",
+        "text": "#1B5E20",
+        "muted": "#558B2F",
+        "border": "#A5D6A7",
+        "background": "#FBFFFB"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "blue_corporate",
+      "name": "Blue Corporate",
+      "category": "professional",
+      "enabled": true,
+      "premium": true,
+      "colors": {
+        "primary": "#0D47A1",
+        "secondary": "#E8EAF6",
+        "text": "#1A237E",
+        "muted": "#546E7A",
+        "border": "#9FA8DA",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 21,
+        "body_size": 12,
+        "total_size": 19
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "tax" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "receivable" },
+        { "type": "signature" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "orange_retail",
+      "name": "Orange Retail",
+      "category": "retail",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#EF6C00",
+        "secondary": "#FFF3E0",
+        "text": "#4E342E",
+        "muted": "#8D6E63",
+        "border": "#FFCC80",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "soft_purple",
+      "name": "Soft Purple",
+      "category": "general",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#5E35B1",
+        "secondary": "#EDE7F6",
+        "text": "#311B92",
+        "muted": "#6A1B9A",
+        "border": "#D1C4E9",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "logo", "position": "top_left" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "luxury_black",
+      "name": "Luxury Black",
+      "category": "premium",
+      "enabled": true,
+      "premium": true,
+      "colors": {
+        "primary": "#212121",
+        "secondary": "#424242",
+        "text": "#212121",
+        "muted": "#616161",
+        "border": "#9E9E9E",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 22,
+        "body_size": 12,
+        "total_size": 20
+      },
+      "components": [
+        { "type": "logo", "position": "top_center" },
+        { "type": "business_info", "position": "top_center" },
+        { "type": "nota_number", "position": "header_right" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "discount" },
+        { "type": "tax" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "signature" },
+        { "type": "footer" }
+      ]
+    },
     {
       "id": "laundry",
       "name": "Laundry Kiloan & Satuan",

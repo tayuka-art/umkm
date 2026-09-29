@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "templates": [
     {
       "id": "modern_blue",
@@ -66,9 +66,9 @@
       ]
     },
     {
-      "id": "minimal_green",
-      "name": "Minimalist Green",
-      "category": "retail",
+      "id": "minimal_clean",
+      "name": "Minimal Clean",
+      "category": "general",
       "enabled": true,
       "premium": false,
       "colors": {
@@ -85,7 +85,155 @@
         "total_size": 17
       },
       "components": [
-        { "type": "logo" },
+        { "type": "business_info" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "thermal_receipt",
+      "name": "Thermal 58/80mm",
+      "category": "thermal",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#FFFFFF",
+        "text": "#000000",
+        "muted": "#333333",
+        "border": "#000000",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 16,
+        "body_size": 10,
+        "total_size": 14
+      },
+      "components": [
+        { "type": "business_info" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "change" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "laundry",
+      "name": "Laundry Kiloan & Satuan",
+      "category": "laundry",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#00838F",
+        "secondary": "#E0F7FA",
+        "text": "#006064",
+        "muted": "#00838F",
+        "border": "#B2EBF2",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "business_info" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "receivable" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "bengkel",
+      "name": "Bengkel & Service",
+      "category": "workshop",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#D84315",
+        "secondary": "#FBE9E7",
+        "text": "#BF360C",
+        "muted": "#757575",
+        "border": "#FFCCBC",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "business_info" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "subtotal" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "signature" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "salon",
+      "name": "Salon & Barbershop",
+      "category": "salon",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#8E24AA",
+        "secondary": "#F3E5F5",
+        "text": "#4A148C",
+        "muted": "#7B1FA2",
+        "border": "#E1BEE7",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
+        { "type": "business_info" },
+        { "type": "nota_number" },
+        { "type": "customer" },
+        { "type": "item_list" },
+        { "type": "total" },
+        { "type": "payment" },
+        { "type": "footer" }
+      ]
+    },
+    {
+      "id": "catering",
+      "name": "Catering & Kuliner",
+      "category": "catering",
+      "enabled": true,
+      "premium": false,
+      "colors": {
+        "primary": "#E65100",
+        "secondary": "#FFF3E0",
+        "text": "#E65100",
+        "muted": "#EF6C00",
+        "border": "#FFE0B2",
+        "background": "#FFFFFF"
+      },
+      "font": {
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
+      },
+      "components": [
         { "type": "business_info" },
         { "type": "nota_number" },
         { "type": "customer" },
@@ -94,40 +242,38 @@
         { "type": "discount" },
         { "type": "total" },
         { "type": "payment" },
-        { "type": "qr" },
+        { "type": "receivable" },
         { "type": "footer" }
       ]
     },
     {
-      "id": "thermal_receipt",
-      "name": "Thermal Struk 58/80mm",
-      "category": "thermal",
+      "id": "kopdes",
+      "name": "Koperasi / Toko Desa",
+      "category": "kopdes",
       "enabled": true,
       "premium": false,
       "colors": {
-        "primary": "#000000",
-        "secondary": "#EEEEEE",
-        "text": "#000000",
-        "muted": "#555555",
-        "border": "#000000",
+        "primary": "#1B5E20",
+        "secondary": "#E8F5E9",
+        "text": "#1B5E20",
+        "muted": "#2E7D32",
+        "border": "#C8E6C9",
         "background": "#FFFFFF"
       },
       "font": {
-        "title_size": 16,
-        "body_size": 11,
-        "total_size": 16
+        "title_size": 20,
+        "body_size": 12,
+        "total_size": 18
       },
       "components": [
-        { "type": "business_info", "position": "top_center" },
+        { "type": "business_info" },
         { "type": "nota_number" },
         { "type": "customer" },
         { "type": "item_list" },
-        { "type": "subtotal" },
-        { "type": "discount" },
-        { "type": "tax" },
         { "type": "total" },
         { "type": "payment" },
-        { "type": "change" },
+        { "type": "receivable" },
+        { "type": "signature" },
         { "type": "footer" }
       ]
     }
